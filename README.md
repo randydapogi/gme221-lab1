@@ -20,3 +20,9 @@ This laboratory sets up a spatial analysis environment using Python and PostGIS 
 
 - PostGIS table: `parcel_landuse_percentage`
 - Visualization in QGIS
+
+## Reflection
+
+### Database Connection Milestone
+
+The main.py script should us how data from a PostGIS database can be accessed in a python script using the sqlalchemy library. Data from the database can then be read using the geopandas library. This shows us that we can programmatically retrieve data from a database and perform analysis. This programatic access can enable us to scale up our spatial processing.
